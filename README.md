@@ -1,4 +1,4 @@
-# browser-friendly-horizontal-scroll-layout
+# horizontal-scroll-layout
 
   Example horizontal layout with cross browser scroll.
   
