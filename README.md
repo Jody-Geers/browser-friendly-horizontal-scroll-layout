@@ -1,4 +1,17 @@
-browser-friendly-horizontal-scroll-layout
-=========================================
+# browser-friendly-horizontal-scroll-layout
 
-an example horizontal layout with cross browser scroll
+  Example horizontal layout with cross browser scroll.
+  
+  Tested in IE, Firefox, Chrome
+
+## Installation
+
+  // TODO: Make componenet out of this.
+
+## API
+
+  Simply add pages wraped in a div with, class="panel".
+
+## License
+
+  MIT
