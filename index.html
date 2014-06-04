@@ -50,7 +50,7 @@
   /*
   *	Resize panel on window change
   */
-  function _resizePenels ( event ) {
+  function resizePenels ( event ) {
     for ( var key in document.querySelectorAll('.panel') ) {
       if ( parseInt(key) >= 0 ) {
         ( document.querySelectorAll('.panel')[key].style.width = (window.innerWidth - 100) + 'px' );
@@ -62,7 +62,7 @@
   /*
   *	Horrizontal scrolling
   */
-  function _horrizontalScroll ( event ) {
+  function horrizontalScroll ( event ) {
 
     if ( event.wheelDeltaY ) {
       // chrome
@@ -88,14 +88,14 @@
   /*
   *	init
   */
-  window.onresize = _resizePenels;
+  window.onresize = resizePenels;
 
-  document.onload = _resizePenels();
+  document.onload = resizePenels();
 
   if ("onmousewheel" in document.body)
-    document.body.onmousewheel = _horrizontalScroll;
+    document.body.onmousewheel = horrizontalScroll;
   else
-    document.body.addEventListener("DOMMouseScroll", _horrizontalScroll);
+    document.body.addEventListener("DOMMouseScroll", horrizontalScroll);
 
 </script>
 
