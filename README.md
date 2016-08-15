@@ -8,13 +8,11 @@
 
 ## Installation
 
-  // TODO: Make componenet out of this.
+  Please see index.js
 
 ## API
 
   Simply add pages wraped in a div with, class="panel".
-  
-  Please see index.js
 
 ## License
 
