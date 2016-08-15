@@ -4,7 +4,7 @@
   
   Attempted cross browser horizontal scroll.
   
-  Tested in IE, Firefox, Chrome
+  Tested in IE, Firefox, Chrome ( Windows Environ )
 
 ## Installation
 
