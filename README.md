@@ -1,6 +1,8 @@
 # horizontal-scroll-layout
 
-  Example horizontal layout with cross browser scroll.
+  Example website with horizontal layout.
+  
+  Attempted cross browser horizontal scroll.
   
   Tested in IE, Firefox, Chrome
 
@@ -11,6 +13,8 @@
 ## API
 
   Simply add pages wraped in a div with, class="panel".
+  
+  Please see index.js
 
 ## License
 
