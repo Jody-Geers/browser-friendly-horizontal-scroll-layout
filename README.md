@@ -12,7 +12,7 @@
 
 ## API
 
-  Simply add pages wraped in a div with, class="panel".
+  Simply add pages wraped in a div with, class="panel". - Please see index.js
 
 ## License
 
